@@ -1,0 +1,10 @@
+[context.production]
+  NODE_ENV = "production"
+
+# Dev context: environment variables set here 
+# are available for local development environments 
+# run using Netlify Dev. These values can be 
+# overwritten on branches that have a more specific 
+# branch context configured.
+[context.development.environment]
+  NODE_ENV = "development"
