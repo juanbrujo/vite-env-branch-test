@@ -9,7 +9,7 @@ const count = ref(0)
 
 console.log('ENV', import.meta.env)
 console.log('NODE_ENV', process.env.NODE_ENV)
-console.log('BRANCH', import.meta.env.VITE_BRANCH)
+console.log('VITE_BRANCH', import.meta.env.VITE_BRANCH)
 </script>
 
 <template>
