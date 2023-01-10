@@ -1,10 +1,8 @@
 [context.production]
 VITE_BRANCH = "production"
 
-# Dev context: environment variables set here 
-# are available for local development environments 
-# run using Netlify Dev. These values can be 
-# overwritten on branches that have a more specific 
-# branch context configured.
+[context.main.environment]
+VITE_BRANCH = "production"
+
 [context.development.environment]
 VITE_BRANCH = "development"
