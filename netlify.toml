@@ -1,5 +1,5 @@
 [context.production]
-  NODE_ENV = "production"
+VITE_BRANCH = "production"
 
 # Dev context: environment variables set here 
 # are available for local development environments 
@@ -7,4 +7,4 @@
 # overwritten on branches that have a more specific 
 # branch context configured.
 [context.development.environment]
-  NODE_ENV = "development"
+VITE_BRANCH = "development"
