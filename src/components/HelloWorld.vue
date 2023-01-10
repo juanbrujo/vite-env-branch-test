@@ -7,6 +7,7 @@ defineProps({
 
 const count = ref(0)
 
+console.log('ENV', process.env)
 console.log('NODE_ENV', process.env.NODE_ENV)
 console.log('BRANCH', process.env.BRANCH)
 </script>
